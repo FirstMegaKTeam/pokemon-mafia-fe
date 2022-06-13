@@ -1,15 +1,33 @@
+.logo{
+    display: flex;
+}
+
+
 .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #ff0000;
+    height: 4em;
+    background-color: #E60600;
+    padding: 0.7em;
 }
 
 .title{
+    display: block;
     font-weight: 200;
     font-size: 1.2em;
+    line-height: 2.5em;
+    transition: 0.2s;
 }
+
+
 
 .title span{
     font-weight: 700;
 }
+
+
+.logo:hover .title{
+    color: white;
+}
+

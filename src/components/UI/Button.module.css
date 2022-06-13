@@ -1,0 +1,16 @@
+.btn{
+    width: 10em;
+    height: 2em;
+    border: black solid 2px;
+    border-radius: 0.3em;
+    margin: 10px;
+    background-color: #f59d9d;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.btn:hover{
+    background-color: #d57d7d;
+    font-weight: 700;
+
+}
