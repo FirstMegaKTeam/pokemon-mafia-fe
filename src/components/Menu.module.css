@@ -1,33 +1,30 @@
-.logo{
-    display: flex;
-}
-
-
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 4em;
-    background-color: #E60600;
+    align-items: center;
+    height: 8rem;
+    width: 100%;
+    background-color: #E63946;
     padding: 0.7em;
+    color: #fff;
 }
 
-.title{
-    display: block;
-    font-weight: 200;
-    font-size: 1.2em;
-    line-height: 2.5em;
-    transition: 0.2s;
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+    margin-left: 50px;
 }
 
-
-
-.title span{
-    font-weight: 700;
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+    width: 40%;
+    margin-right: 50px;
 }
 
-
-.logo:hover .title{
-    color: white;
-}
 

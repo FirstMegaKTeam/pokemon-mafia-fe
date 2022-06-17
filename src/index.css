@@ -1,16 +1,14 @@
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-shadow: none;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
 }
 
-html{
-  font-family: 'Changa', sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }

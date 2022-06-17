@@ -1,49 +1,14 @@
-.input{
-    all: unset;
-    height: 2em;
-    width:15em;
+.input {
+    font-size: 1.8rem;
+    width: 28rem;
+    margin-right: 5px;
+    height: 3.6rem;
+    border: 2px solid #000;
+    padding: 2px;
     text-align: center;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-    transition:0.3s;
-    color: white
-
 }
 
-input:focus{
-    border-color: white;
-    -webkit-box-shadow: 0px 3px 7px -5px rgba(214, 214, 214, 1);
-    -moz-box-shadow: 0px 3px 7px -5px rgba(214, 214, 214, 1);
-    box-shadow: 0px 3px 7px -5px rgba(214, 214, 214, 1);
-    transition:0.3s;
+*:focus {
+    outline: none;
 }
 
-.input::-webkit-input-placeholder { /* Edge */
-    color: black;
-    transition:0.3s;
-}
-
-.input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-    transition:0.3s;
-}
-
-.input::placeholder {
-    color: black;
-    transition:0.3s;
-}
-
-.input:focus::-webkit-input-placeholder{ /* Edge */
-    color: white;
-    transition:0.3s;
-}
-
-.input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-    transition:0.3s;
-}
-
-.input:focus::placeholder {
-    color: white;
-    transition:0.3s;
-}
