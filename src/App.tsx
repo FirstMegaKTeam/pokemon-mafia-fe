@@ -1,16 +1,13 @@
 import React from 'react';
 
-import {Menu} from "./components/Menu";
+import { Menu } from "./components/Menu";
 
 export const App = () => {
-  return (
-   <div>
-       <Menu/>
-
-
-
-   </div>
-  );
-}
+    return (
+        <div>
+            <Menu/>
+        </div>
+    );
+};
 
 

@@ -1,0 +1,13 @@
+img {
+    height: 5.2rem;
+}
+
+.title {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 2.6rem;
+}
+
+.title span {
+    font-weight: 600;
+}
