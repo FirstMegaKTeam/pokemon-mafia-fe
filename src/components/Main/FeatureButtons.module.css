@@ -1,0 +1,7 @@
+.box {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    height: 12rem;
+}
