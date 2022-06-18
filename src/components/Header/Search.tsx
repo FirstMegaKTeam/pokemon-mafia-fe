@@ -9,5 +9,5 @@ export const Search = () => {
             <Input type="text" placeholder="Wpisz nazwę pokemona"/>
             <Button>Wyszukaj</Button>
         </form>
-    )
-}
+    );
+};
