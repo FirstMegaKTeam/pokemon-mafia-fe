@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Input } from "./UI/Input";
-import { Button } from "./UI/Button";
+import { Input } from "../UI/Input";
+import { Button } from "../UI/Button";
 
 export const Search = () => {
     return (
@@ -9,5 +9,5 @@ export const Search = () => {
             <Input type="text" placeholder="Wpisz nazwę pokemona"/>
             <Button>Wyszukaj</Button>
         </form>
-    )
-}
+    );
+};
