@@ -1,6 +1,6 @@
 import React from 'react';
-import { FeatureButtons } from './FeatureButtons';
-import { CardsContainer } from './CardsContainer';
+import { FeatureButtons } from './FeatureButtons/FeatureButtons';
+import { CardsContainer } from './CardsContainer/CardsContainer';
 
 import style from './Main.module.css';
 import bg from '../../assets/background.png';

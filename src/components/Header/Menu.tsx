@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Search } from "./Search";
-import { Button } from "../UI/Button";
-import { Logo } from '../UI/Logo';
+import { Button } from "../UI/Button/Button";
+import { Logo } from '../UI/Logo/Logo';
 
 import style from "./Menu.module.css";
 

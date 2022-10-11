@@ -1,7 +1,7 @@
 import React from 'react';
 
 import style from './Logo.module.css';
-import ball from '../../assets/ball.png';
+import ball from '../../../assets/ball.png';
 
 export const Logo = () => <>
     <img src={ball} alt="pokemon-ball"/>

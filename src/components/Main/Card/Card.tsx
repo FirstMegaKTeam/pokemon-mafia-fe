@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from '../UI/Button';
+import { Button } from '../../UI/Button/Button';
 
 import style from './Card.module.css';
-import bg from '../../assets/background.png';
+import bg from '../../../assets/background.png';
 
 interface Props {
 
