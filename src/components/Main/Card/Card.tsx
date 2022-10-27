@@ -1,24 +1,32 @@
 import React from 'react';
 import { Button } from '../../UI/Button/Button';
+import { Pokemon } from 'types';
 
 import style from './Card.module.css';
 import bg from '../../../assets/background.png';
 
-interface Props {
-
+interface Props extends Pokemon {
 }
 
-export const Card = (props: Props) => {
+export const Card = ({
+                         pokedexId,
+                         name,
+                         frontImage,
+                         attack,
+                         hp,
+                         defense,
+                         pokemonTypes
+                     }: Props) => {
     return <div className={style.card}>
-        <h1>Charmander #4</h1>
+        <h1>{name} #{pokedexId}</h1>
         <div style={{backgroundImage: `url(${bg})`}} className={style.img}>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="pokemon"/>
+            <img src={frontImage} alt={name}/>
         </div>
         <div className={style.stats}>
-            <p>typ: fire</p>
-            <p>atak: 52</p>
-            <p>obrona: 43</p>
-            <p>zdrowie: 39</p>
+            <p>typ: {pokemonTypes[0]}</p>
+            <p>atak: {attack}</p>
+            <p>obrona: {defense}</p>
+            <p>zdrowie: {hp}</p>
         </div>
         <Button>Szczegółowe informacje</Button>
     </div>;
